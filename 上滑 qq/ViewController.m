@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"我就是最帅的，你信还是不信");
+    UIButton *button =[[UIButton alloc]initWithFrame:CGRectMake(0, 0,[UIScreen mainScreen].bounds.size.width,[UIScreen mainScreen].bounds.size.height)];
+    [self.view addSubview:button];
 }
 
 - (void)didReceiveMemoryWarning {
