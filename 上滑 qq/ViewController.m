@@ -22,6 +22,7 @@
     
     UIView *view =[[UIView alloc]initWithFrame:self.view.bounds];
     [self.view addSubview:view];
+    NSLog(@"wojiushibu");
 }
 
 - (void)didReceiveMemoryWarning {
