@@ -26,6 +26,8 @@
     NSLog(@"wobuzhidaogaizenme nong");
     int i=0;
     NSLog(@"haolemajiuszheyangwoyongliquchuangtianxia");
+    
+    NSLog(@"zhiyoushankuai");
 }
 
 - (void)didReceiveMemoryWarning {
